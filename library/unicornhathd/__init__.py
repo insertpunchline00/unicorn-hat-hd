@@ -41,7 +41,7 @@ def setup():
         return
 
     _spi = spidev.SpiDev()
-    _spi.open(0, 0)
+    _spi.open(1, 0)
     _spi.max_speed_hz = 9000000
 
     is_setup = True
